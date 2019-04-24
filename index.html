@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <script>
   const CONFIG = {
-    /**
+    /** adsfadsf
      * The category, name, key, url, search path and color for your commands.
      * If none of the specified keys are matched, the '*' key is used.
      * Commands without a category don't show up in the help menu.
@@ -55,12 +55,14 @@
         {
         name: 'MDC - Employee',
         key: 'emp',
-        url: 'http://www.mdc.edu/',
+        url: 'https://wapi.mdc.edu/NTAuth/',
+        search: '/NTAuth/user_data.asp?UserID={}',
         },
         {
         name: 'MDC - Student',
         key: 'stu',
-        url: 'http://www.mdc.edu/',
+        url: 'https://wapi.mdc.edu/NTAuth/student/',
+        search: '/NTAuth/student/StudentData.aspx?AcctNm={}',
         },
       // Internet 
         {
